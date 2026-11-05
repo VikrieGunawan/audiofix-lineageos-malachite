@@ -1,0 +1,3 @@
+-keep class io.github.fix.audio.AudioFixHook { *; }
+-keep class de.robv.android.xposed.** { *; }
+-dontwarn de.robv.android.xposed.**
