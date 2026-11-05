@@ -1,1 +1,11 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposed_scope">
+        <item>system</item>
+        <item>android</item>
+        <item>com.sybogames.subway.surfers.game</item>
+        <item>com.kiloo.subwaysurf</item>
+        <item>com.roblox.client</item>
+        <item>com.pryshedko.mtisland</item>
+    </string-array>
+</resources>
