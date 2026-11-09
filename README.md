@@ -24,15 +24,6 @@ Fixed:
 > **Important Note**:
 > Do not force-exit or minimize affected applications (for example, *Subway Surfers City*) while an ad is actively playing and then re-enter the application to skip/dismiss the ad. Doing so will cause the game's audio to suddenly duck / dim. While certain applications may handle this action normally, affected games/apps will suffer sudden volume drop.
 
----
-
-### Version 1.0.0 (1)
-
-Initial release:
-- Anti-ducking & fade suppression di `PlaybackActivityMonitor` dan `DuckingManager`.
-- Optimasi low-latency buffer (1024 frames) dan AudioAttributes (`FLAG_LOW_LATENCY`, `USAGE_GAME`).
-- Blokir pergantian mode audio komunikasi (`MODE_IN_COMMUNICATION`).
-
 ## Compatibility
 
 - Android 8.0 (API 26) through Android 15+ (API 35)
